@@ -1,0 +1,81 @@
+body{
+    background-size: cover;
+    background: url("../Pictures/books-wallpaper-3.jpg") no-repeat fixed center;
+}
+
+.liblLogo{
+    color: black;
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: lightgoldenrodyellow;
+}
+.liblLogo img{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    width: 120px;
+    height: 70px;
+    float: left;
+}
+
+.search{
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 10%;
+    border: solid 2px lightgoldenrodyellow;
+}
+.inputFieldSearch{
+    width: 70%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.search .picture{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+.sideBar{
+    position: relative;
+    background: lightgoldenrodyellow;
+    border: solid 3px black;
+    float: left;
+    margin-top: 2%;
+    margin-left: 30px;
+    height: 65%;
+    width: 25%;
+    text-align: center;
+    color: black;
+}
+.sideBarDescr{
+    background: lightgoldenrodyellow;
+    border: solid 3px black;
+    float: left;
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 30px;
+    height: 65%;
+    width: 35%;
+    text-align: center;
+    color: black;
+}
+.sideBar ul{
+
+    text-align: left;
+    list-style-type: none;
+}
+.content{
+    position: relative;
+    background: lightgoldenrodyellow;
+    border: solid 3px black;
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-right: 30px;
+    width: 45%;
+    text-align: center;
+    height: 65%;
+    color: black;
+}

@@ -1,0 +1,31 @@
+body{
+    background-size: cover;
+    background: url("../Pictures/libraryNew.jpeg") no-repeat fixed center;
+}
+
+header{
+    text-align: center;
+    color: coral;
+
+}
+
+article{
+    border: 2px solid black;
+    border-radius: 5px;
+    background: moccasin;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30%;
+    margin: auto;
+    width: 20%;
+}
+article h3{
+    font-size: 15px;
+}
+.logButtons{
+    margin: 20px;
+}
+.attention{
+    text-align: center;
+    color: red;
+}

@@ -1,0 +1,32 @@
+<%@ page import="Controller.GenreList" %>
+<%@ page import="Objects.Genre" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page pageEncoding="UTF-8" %>
+<html>
+<head>
+    <title>Library</title>
+    <link href="../CSS/MainPageStyle.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/Footer.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/Content.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <%request.setCharacterEncoding("UTF-8");%>
+
+    <div >
+        <div class="liblLogo">
+            <img src="../Pictures/logo.png">
+            <h3></br> Добро пожаловать в онлайн библиотеку </h3>
+
+
+        </div>
+        <div class="search">
+            <img class="picture" src="../Pictures/Zoom.png">
+            <input class="inputFieldSearch" type="text" name="searchField" placeholder="Для поиска введите значение">
+            <input type="button" value="Поиск" name="searchButton">
+            <select name="typeSearch" size="1">
+                <option>Название</option>
+                <option>Автор</option>
+            </select>
+        </div>
+
+    </div>
