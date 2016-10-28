@@ -24,7 +24,7 @@
                 <strong>Жанр : </strong> <span><%=book.getGenre()%></span> </br>
                 <strong>Издательство : </strong> <span><%=book.getPublisher()%></span> </br>
                 <a href="#"> Читать </a></br>
-                <a href="main.jsp"> К жанрам </a> </br>
+                <a href="main.jsp?login=<%=session.getAttribute("user")%>"> К жанрам </a> </br>
             </div>
             <div class="image">
                 <a href="#"> <img src="<%=request.getContextPath()%>/ShowImage?index=0" width="280" height ="325" alt="Обложка"/></a>

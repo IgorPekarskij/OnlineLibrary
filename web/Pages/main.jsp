@@ -12,7 +12,7 @@
                 ArrayList<Book> booksList = books.getBookList();
                 for(Book book: booksList) {
             %>
-            <li><strong> <a href="book.jsp?book_id=<%=book.getId()%>&name=<%=book.getBookName()%>"><%=book.getBookName()%></a></strong></li>
+            <li><strong> <a href="book.jsp?book_id=<%=book.getId()%>&name=<%=book.getBookName()%>&login=<%=session.getAttribute("user")%>"><%=book.getBookName()%></a></strong></li>
             <%}%>
         </ul>
 

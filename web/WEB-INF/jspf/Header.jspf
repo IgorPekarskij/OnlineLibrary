@@ -11,18 +11,19 @@
 </head>
 <body>
     <%request.setCharacterEncoding("UTF-8");%>
-
+    <%session.setAttribute("user", request.getParameter("login"));%>
     <div >
         <div class="liblLogo">
             <img src="../Pictures/logo.png">
-            <h3></br> Добро пожаловать в онлайн библиотеку </h3>
+            <h2></br> Онлайн библиотеку <span>Добро пожаловать, <%=session.getAttribute("user")%></span></br>
+                <span><a href="<%=request.getContextPath()%>/index.jsp" name="exit">Выход</a></span> </h2>
 
 
         </div>
         <div class="search">
             <img class="picture" src="../Pictures/Zoom.png">
             <input class="inputFieldSearch" type="text" name="searchField" placeholder="Для поиска введите значение">
-            <input type="button" value="Поиск" name="searchButton">
+            <input type="button" value="Поиск" name="searchButton" class="search_button">
             <select name="typeSearch" size="1">
                 <option>Название</option>
                 <option>Автор</option>
