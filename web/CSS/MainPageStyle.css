@@ -3,6 +3,7 @@ body{
     background: url("../Pictures/books-wallpaper-3.jpg") no-repeat fixed center;
 }
 
+
 .liblLogo{
     color: black;
     width: 100%;
@@ -12,12 +13,16 @@ body{
     color: lightgoldenrodyellow;
 }
 .liblLogo img{
-    margin-left: 10px;
+    margin-left: 20px;
     padding-top: 10px;
     padding-right: 20px;
     width: 120px;
     height: 70px;
     float: left;
+}
+.liblLogo span{
+    float: right;
+    margin-right: 20px;
 }
 
 .search{
@@ -78,4 +83,65 @@ body{
     text-align: center;
     height: 65%;
     color: black;
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 0;
 }
+
+.bookDescr{
+    padding-left: 20px;
+    margin-left: 5px;
+    list-style-type: none;
+    font-size: small;
+    border-bottom: solid 2px black;
+    float: left;
+
+}
+.bookDescr span{
+    font-size: 10px;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+.description{
+    text-align: left;
+    float: left;
+}
+
+A:active{
+    color: chocolate;
+}
+
+.search_button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+    box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+    /*background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+    background-color:#79bbff;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #84bbf3;
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #528ecc;
+}.search_button:hover {
+     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+     /*background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );*/
+     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+     background-color:#378de5;
+     cursor:pointer;
+ }.search_button:active {
+      position:relative;
+      top:1px;
+  }
+
+
