@@ -7,7 +7,6 @@
     <title>Library</title>
     <link href="../CSS/MainPageStyle.css" rel="stylesheet" type="text/css">
     <link href="../CSS/Footer.css" rel="stylesheet" type="text/css">
-    <link href="../CSS/Content.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <%request.setCharacterEncoding("UTF-8");%>

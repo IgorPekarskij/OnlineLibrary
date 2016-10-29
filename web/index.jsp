@@ -10,7 +10,8 @@
 <body>
 
 <header class="greeting">
-
+     <%session.removeAttribute("user");%>
+     <%System.out.println(session.getAttribute("user"));%>
     <h2>
         Добро пожаловать в нашу онлайн библиотеку!
     </h2>
@@ -24,6 +25,7 @@
             <input type="submit" value="Вход" class="search_button">
             <input type="reset" value="Отмена" class="search_button">
         </div>
+
     </form>
 </article>
 <h2 class="Attention">Внимание, сайт в разработке! Возможны изменения в стиле и функциональных возможностях!</h2>

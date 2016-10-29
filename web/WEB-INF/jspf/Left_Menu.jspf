@@ -8,6 +8,7 @@
             for(Genre genre: genreList.getGenreList()) {
                 %>
                 <li><a href="books.jsp?id=<%=genre.getId()%>&name=<%=genre.getGenreName()%>&login=<%=session.getAttribute("user")%>">
+
                     <%=genre.getGenreName()%> </a> </li>
             <%}%>
     </ul>

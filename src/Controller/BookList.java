@@ -86,7 +86,7 @@ public class BookList {
                 "INNER JOIN genre gn on bk.genre_id = gn.id\n" +
                 "INNER JOIN author au on bk.author_id = au.id\n" +
                 "INNER JOIN publisher pb on bk.publisher_id = pb.id\n" +
-                "WHERE genre_id =" + id + " LIMIT 0, 3");
+                "WHERE genre_id =" + id + " LIMIT 0, 10");
     }
 
     public ArrayList<Book> getBooksByID(long id) {

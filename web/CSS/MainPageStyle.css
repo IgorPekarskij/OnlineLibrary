@@ -144,4 +144,9 @@ A:active{
       top:1px;
   }
 
-
+.default{
+    color: black;
+}
+.clicked{
+    color: chocolate;
+}
